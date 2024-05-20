@@ -1,0 +1,12 @@
+C:\Users\Alberto (Gero PC)\source\repos\inventario\capaentidad\bin\Debug\capaentidad.dll
+C:\Users\Alberto (Gero PC)\source\repos\inventario\capaentidad\bin\Debug\capaentidad.pdb
+C:\Users\Alberto (Gero PC)\source\repos\inventario\capaentidad\obj\Debug\capaentidad.csproj.AssemblyReference.cache
+C:\Users\Alberto (Gero PC)\source\repos\inventario\capaentidad\obj\Debug\capaentidad.csproj.CoreCompileInputs.cache
+C:\Users\Alberto (Gero PC)\source\repos\inventario\capaentidad\obj\Debug\capaentidad.dll
+C:\Users\Alberto (Gero PC)\source\repos\inventario\capaentidad\obj\Debug\capaentidad.pdb
+C:\Users\Alberto (Gero PC)\source\repos\inventario-20240520T152203Z-001\inventario\capaentidad\bin\Debug\capaentidad.dll
+C:\Users\Alberto (Gero PC)\source\repos\inventario-20240520T152203Z-001\inventario\capaentidad\bin\Debug\capaentidad.pdb
+C:\Users\Alberto (Gero PC)\source\repos\inventario-20240520T152203Z-001\inventario\capaentidad\obj\Debug\capaentidad.csproj.AssemblyReference.cache
+C:\Users\Alberto (Gero PC)\source\repos\inventario-20240520T152203Z-001\inventario\capaentidad\obj\Debug\capaentidad.csproj.CoreCompileInputs.cache
+C:\Users\Alberto (Gero PC)\source\repos\inventario-20240520T152203Z-001\inventario\capaentidad\obj\Debug\capaentidad.dll
+C:\Users\Alberto (Gero PC)\source\repos\inventario-20240520T152203Z-001\inventario\capaentidad\obj\Debug\capaentidad.pdb

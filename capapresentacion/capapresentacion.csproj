@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA1B972D-AC3E-4223-80CF-92C2F857D3B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>capapresentacion</RootNamespace>
+    <AssemblyName>capapresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agregar Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar Producto.Designer.cs">
+      <DependentUpon>Agregar Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_inventario.Designer.cs">
+      <DependentUpon>Agregar_inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="borrarinventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrarinventario.Designer.cs">
+      <DependentUpon>borrarinventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificar_producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificar_producto.Designer.cs">
+      <DependentUpon>modificar_producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto.Designer.cs">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="p_inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="p_inventario.Designer.cs">
+      <DependentUpon>p_inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Agregar Producto.resx">
+      <DependentUpon>Agregar Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_inventario.resx">
+      <DependentUpon>Agregar_inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrarinventario.resx">
+      <DependentUpon>borrarinventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificar_producto.resx">
+      <DependentUpon>modificar_producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto.resx">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="p_inventario.resx">
+      <DependentUpon>p_inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capadatos\capadatos.csproj">
+      <Project>{1b0e8031-ccae-41d4-81b2-6a748a314cac}</Project>
+      <Name>capadatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\capaentidad\capaentidad.csproj">
+      <Project>{ee3e4cf1-9a38-4271-9675-40c88192acfa}</Project>
+      <Name>capaentidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\capanegocios\capanegocios.csproj">
+      <Project>{2e1f8ce5-a998-4a36-b10d-fc693eb9553a}</Project>
+      <Name>capanegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
